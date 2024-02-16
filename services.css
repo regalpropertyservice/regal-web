@@ -1,0 +1,47 @@
+body {
+	background-color: rgb(222, 234, 221);
+	border: 10px solid black;
+	border-radius: 12px;
+	font-family: blinker;
+	height: 100vh;
+}
+h1,
+h2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	font-family: "Qwigley", cursive;
+	font-size: 28px;
+	margin-bottom: 0;
+	border-radius: 12px;
+	padding: 10px;
+}
+
+h4 {
+	color: black;
+	font-family: blinker;
+	font-size: 18px;
+	background-color: rgb(171, 175, 171);
+	border: 1px solid black;
+}
+
+li {
+	width: 50vw;
+	font-family: Blinker;
+	border-bottom: 5px solid rgb(55, 50, 49);
+	border-right: 5px solid rgb(55, 50, 49);
+	padding: 12px;
+	border-radius: 8px;
+	background-color: rgb(171, 175, 171);
+	margin-bottom: 2vw;
+}
+ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+p {
+	margin: 10px;
+}

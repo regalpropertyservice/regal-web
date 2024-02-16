@@ -1,0 +1,120 @@
+body {
+	margin: 0;
+}
+
+body {
+	background-color: rgb(222, 234, 221);
+	color: rgb(104, 98, 98);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header {
+	width: 100vw;
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: -70px;
+	margin-right: 10px;
+}
+
+h1 {
+	background-color: rgb(222, 234, 221);
+	font-family: "blinker";
+	font-size: 16px;
+	color: black;
+}
+.quote {
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 10px;
+}
+
+h6 {
+	font-size: x-small;
+	margin-top: 20px;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	font-family: blinker;
+}
+
+p {
+	display: none;
+	size: cover;
+	align-items: center;
+	width: 300px;
+	height: 10s0px;
+	border-radius: 20px;
+	margin-top: 0vh;
+}
+
+img {
+	display: none;
+	size: cover;
+	align-items: center;
+	width: 300px;
+	height: 300px;
+	border: 5px solid rgb(44, 36, 36);
+	border-radius: 20px;
+	margin-top: 0vh;
+}
+
+footer {
+	width: 40vw;
+	position: absolute;
+	top: 33vh;
+	left: -60px;
+}
+
+ul {
+	text-decoration: none;
+	list-style: none;
+}
+li {
+	font-family: blinker;
+	display: flex;
+	width: 20vw;
+	justify-content: right;
+	align-items: center;
+	font-family: Blinker;
+	border-bottom: 5px solid rgb(55, 50, 49);
+	border-right: 5px solid rgb(55, 50, 49);
+	padding: 12px;
+	border-radius: 8px;
+	background-color: rgb(171, 175, 171);
+	margin-bottom: 2vw;
+}
+
+li:hover {
+	transform: translate(10px, 0px);
+	/* transform: rotateX(20px, 20px); */
+	font-size: larger;
+}
+
+.containers {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.regal-logo {
+	background-image: url("assets/regal-logo.webp");
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: -9px;
+	margin-bottom: 20px;
+	height: 200px;
+	width: 300px;
+	z-index: 1;
+}
+
+#text {
+	height: 50px;
+	width: 50px;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(42, 39, 39);
+}
